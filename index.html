@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoountDown</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="main">
+        <div id="overlay">
+            <div>
+                <header><h1>Count Down Project</h1></header>
+                <br><br>
+                <header><h2>Submit Any Date</h2></header>
+            </div>
+            <div class="enter">
+                <input type="date" placeholder="Date" id="date" value="2024-01-01">
+                <input type="time" placeholder="time" id="time" value="11:59">
+                <button type="submit" id="enterDate">Submit</button>
+                <button type="submit" id="stop">Stop</button>
+            </div>
+            <hr>
+            <div class="container" >
+                <div id="day"></div>
+                <div id="hour"></div>
+                <div id="min"></div>
+                <div id="sec"></div>
+            </div>
+            <div id="year"></div>
+        </div>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>
